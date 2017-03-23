@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
     public void delete(View v){
 
         if (db!=null){
-            db.execSQL("delete from studetn   where id = ?;", new Object[]{ 1});
+            db.execSQL("delete from studetn where id = ?;", new Object[]{1});
         }
     }
 
