@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?> 
+ <students>
+	  <student>
+	     <name>张三</name>
+		 <gender>男</gender>
+		 <id>cs001</id>
+		 <class>wd01</class>
+	  </student>
+	  <student>
+	     <name>李四</name>
+		 <gender>男</gender>
+		 <id>cs002</id>
+		 <class>wd01</class>
+       </student>
+	    <student>
+	     <name>王五</name>
+		 <gender>男</gender>
+		 <id>cs003</id>
+		 <class>wd01</class>
+       </student>
+	    <student>
+	     <name>小静</name>
+		 <gender>女</gender>
+		 <id>cs004</id>
+		 <class>wd01</class>
+       </student>
+</students>

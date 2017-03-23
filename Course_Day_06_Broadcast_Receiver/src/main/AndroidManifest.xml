@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cskaoyan.day2.day06broadcastreceiverdemo">
+
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".MyBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".MyOutgoingCallReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".MySMSReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+        You <em>cannot</em> receive this through components declared in
+        manifests, only by explicitly registering for it with
+        {@link Context#registerReceiver(BroadcastReceiver, IntentFilter)
+        Context.registerReceiver()}.
+        <action android:name="android.intent.action.SCREEN_OFF"/>
+        -->
+        <receiver
+            android:name=".MyScreenOffReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".MySelfbroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter
+                android:priority="1000">
+                <action android:name="com.cskaoyan.mybroadcast" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".MySelfbroadcastReceiver2"
+            android:enabled="true"
+            android:exported="true"  >
+            <intent-filter android:priority="100">
+                <action android:name="com.cskaoyan.mybroadcast" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".MySelfbroadcastReceiver3"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="-100">
+                <action android:name="com.cskaoyan.mybroadcast" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

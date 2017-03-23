@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Homework_Day_03_UI_Component</string>
+    <string name="button_text">设置文字</string>
+    <string name="button_textcolor">设置文字颜色</string>
+    <string name="button_bgcolor">设置文字背景颜色</string>
+    <string name="button_textsize">设置文字大小</string>
+    <string name="back_home">回主页</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="repassword">验证密码</string>
+    <string name="email">邮箱</string>
+    <string name="gender">性别</string>
+    <string name="phone">联系方式</string>
+    <string name="register">注册</string>
+    <string name="user_register">新用户注册</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+</resources>

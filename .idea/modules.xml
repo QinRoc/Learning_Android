@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_02_Layout/Course_Day_02_Layout.iml" filepath="$PROJECT_DIR$/Course_Day_02_Layout/Course_Day_02_Layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_03_UI_Component/Course_Day_03_UI_Component.iml" filepath="$PROJECT_DIR$/Course_Day_03_UI_Component/Course_Day_03_UI_Component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_04_Activity_1/Course_Day_04_Activity_1.iml" filepath="$PROJECT_DIR$/Course_Day_04_Activity_1/Course_Day_04_Activity_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_04_Activity_2/Course_Day_04_Activity_2.iml" filepath="$PROJECT_DIR$/Course_Day_04_Activity_2/Course_Day_04_Activity_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_05_Activity_Lifecycle/Course_Day_05_Activity_Lifecycle.iml" filepath="$PROJECT_DIR$/Course_Day_05_Activity_Lifecycle/Course_Day_05_Activity_Lifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_05_Permission/Course_Day_05_Permission.iml" filepath="$PROJECT_DIR$/Course_Day_05_Permission/Course_Day_05_Permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_06_Broadcast_Receiver/Course_Day_06_Broadcast_Receiver.iml" filepath="$PROJECT_DIR$/Course_Day_06_Broadcast_Receiver/Course_Day_06_Broadcast_Receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_06_Broadcast_Sender/Course_Day_06_Broadcast_Sender.iml" filepath="$PROJECT_DIR$/Course_Day_06_Broadcast_Sender/Course_Day_06_Broadcast_Sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_07_File_System/Course_Day_07_File_System.iml" filepath="$PROJECT_DIR$/Course_Day_07_File_System/Course_Day_07_File_System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_08_Pull_Parse/Course_Day_08_Pull_Parse.iml" filepath="$PROJECT_DIR$/Course_Day_08_Pull_Parse/Course_Day_08_Pull_Parse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_08_SQLlite_DB/Course_Day_08_SQLlite_DB.iml" filepath="$PROJECT_DIR$/Course_Day_08_SQLlite_DB/Course_Day_08_SQLlite_DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_08_Student_Info_Sys/Course_Day_08_Student_Info_Sys.iml" filepath="$PROJECT_DIR$/Course_Day_08_Student_Info_Sys/Course_Day_08_Student_Info_Sys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_09_SQL_Helper/Course_Day_09_SQL_Helper.iml" filepath="$PROJECT_DIR$/Course_Day_09_SQL_Helper/Course_Day_09_SQL_Helper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_09_SQL_Transaction/Course_Day_09_SQL_Transaction.iml" filepath="$PROJECT_DIR$/Course_Day_09_SQL_Transaction/Course_Day_09_SQL_Transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework_Day_02_Layout/Homework_Day_02_Layout.iml" filepath="$PROJECT_DIR$/Homework_Day_02_Layout/Homework_Day_02_Layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework_Day_03_UI_Component/Homework_Day_03_UI_Component.iml" filepath="$PROJECT_DIR$/Homework_Day_03_UI_Component/Homework_Day_03_UI_Component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework_Day_04_Activity/Homework_Day_04_Activity.iml" filepath="$PROJECT_DIR$/Homework_Day_04_Activity/Homework_Day_04_Activity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework_Day_05_Activity/Homework_Day_05_Activity.iml" filepath="$PROJECT_DIR$/Homework_Day_05_Activity/Homework_Day_05_Activity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework_Day_06_Broadcast/Homework_Day_06_Broadcast.iml" filepath="$PROJECT_DIR$/Homework_Day_06_Broadcast/Homework_Day_06_Broadcast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework_Day_07_File_System/Homework_Day_07_File_System.iml" filepath="$PROJECT_DIR$/Homework_Day_07_File_System/Homework_Day_07_File_System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework_Day_08_Pull_Parse_SQLite/Homework_Day_08_Pull_Parse_SQLite.iml" filepath="$PROJECT_DIR$/Homework_Day_08_Pull_Parse_SQLite/Homework_Day_08_Pull_Parse_SQLite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learning.iml" filepath="$PROJECT_DIR$/Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01/day01.iml" filepath="$PROJECT_DIR$/day01/day01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework_day_06_broadcast_send/homework_day_06_broadcast_send.iml" filepath="$PROJECT_DIR$/homework_day_06_broadcast_send/homework_day_06_broadcast_send.iml" />
+    </modules>
+  </component>
+</project>

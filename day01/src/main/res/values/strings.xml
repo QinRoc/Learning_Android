@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">day01</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="text_hint">Please input</string>
+    <string name="button_left">左</string>
+    <string name="button_center">中</string>
+    <string name="button_left_top">左上</string>
+    <string name="button_top">上</string>
+    <string name="button_right_top">右上</string>
+    <string name="button_right">右</string>
+    <string name="button_right_bottom">右下</string>
+    <string name="button_bottom">下</string>
+    <string name="button_left_bottom">左下</string>
+</resources>

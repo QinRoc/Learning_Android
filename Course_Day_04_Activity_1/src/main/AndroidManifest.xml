@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cskaoyan.day2.day04activitydemo">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/a"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name="com.cskaoyan.activity.SecondActivity" />
+        <activity android:name="com.cskaoyan.activity.ThirdActivity"
+            android:icon="@drawable/a"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action   android:name="com.cskaoyan.comeandfindme"></action>
+                <action   android:name="com.cskaoyan.home"></action>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.cskaoyan.zhao"/>
+                <category android:name="com.cskaoyan.lan"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action   android:name="com.cskaoyan.comeandfindher"></action>
+                <action   android:name="com.cskaoyan.home2"></action>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.cskaoyan.zhang"/>
+                <category android:name="com.cskaoyan.san"/>
+                <data android:scheme="abc"/>
+                <data android:host="www.cskaoyan.com"/>
+                <data android:port="8080"/>
+                <data android:port="8090"/>
+                <data android:path="/java"/>
+                <data android:mimeType="big/small"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="audio/mp3"/>
+
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
