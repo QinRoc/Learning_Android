@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cskaoyan.week2.fragmentdemo1app.MainActivity">
+
+    <fragment
+        android:id="@+id/fragmenta"
+        android:name="com.cskaoyan.week2.fragmentdemo1app.FragmenA"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></fragment>
+
+    <fragment
+        android:id="@+id/fragmentb"
+        android:name="com.cskaoyan.week2.fragmentdemo1app.FragmentB"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="3"></fragment>
+
+
+</LinearLayout>

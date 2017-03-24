@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Homework2_ListView" />
+        <activity android:name=".Homework3_RecycleView_StarsList" />
+        <activity android:name=".Homework3_RecycleView_StaggeerGridLayoutManager"></activity>
     </application>
 
 </manifest>
