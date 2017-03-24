@@ -18,6 +18,10 @@
       <module fileurl="file://$PROJECT_DIR$/Course_Day_09_SQL_Transaction/Course_Day_09_SQL_Transaction.iml" filepath="$PROJECT_DIR$/Course_Day_09_SQL_Transaction/Course_Day_09_SQL_Transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/Course_Day_10_Listview/Course_Day_10_Listview.iml" filepath="$PROJECT_DIR$/Course_Day_10_Listview/Course_Day_10_Listview.iml" />
       <module fileurl="file://$PROJECT_DIR$/Course_Day_10_Recycleview/Course_Day_10_Recycleview.iml" filepath="$PROJECT_DIR$/Course_Day_10_Recycleview/Course_Day_10_Recycleview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_11_Content_Accesser/Course_Day_11_Content_Accesser.iml" filepath="$PROJECT_DIR$/Course_Day_11_Content_Accesser/Course_Day_11_Content_Accesser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_11_Content_Provider/Course_Day_11_Content_Provider.iml" filepath="$PROJECT_DIR$/Course_Day_11_Content_Provider/Course_Day_11_Content_Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_11_Read_Contacts/Course_Day_11_Read_Contacts.iml" filepath="$PROJECT_DIR$/Course_Day_11_Read_Contacts/Course_Day_11_Read_Contacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Course_Day_11_Read_SMS/Course_Day_11_Read_SMS.iml" filepath="$PROJECT_DIR$/Course_Day_11_Read_SMS/Course_Day_11_Read_SMS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework_Day_02_Layout/Homework_Day_02_Layout.iml" filepath="$PROJECT_DIR$/Homework_Day_02_Layout/Homework_Day_02_Layout.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework_Day_03_UI_Component/Homework_Day_03_UI_Component.iml" filepath="$PROJECT_DIR$/Homework_Day_03_UI_Component/Homework_Day_03_UI_Component.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework_Day_04_Activity/Homework_Day_04_Activity.iml" filepath="$PROJECT_DIR$/Homework_Day_04_Activity/Homework_Day_04_Activity.iml" />
@@ -25,6 +29,8 @@
       <module fileurl="file://$PROJECT_DIR$/Homework_Day_06_Broadcast/Homework_Day_06_Broadcast.iml" filepath="$PROJECT_DIR$/Homework_Day_06_Broadcast/Homework_Day_06_Broadcast.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework_Day_07_File_System/Homework_Day_07_File_System.iml" filepath="$PROJECT_DIR$/Homework_Day_07_File_System/Homework_Day_07_File_System.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework_Day_08_Pull_Parse_SQLite/Homework_Day_08_Pull_Parse_SQLite.iml" filepath="$PROJECT_DIR$/Homework_Day_08_Pull_Parse_SQLite/Homework_Day_08_Pull_Parse_SQLite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework_Day_09_SQL_Helper_Transaction/Homework_Day_09_SQL_Helper_Transaction.iml" filepath="$PROJECT_DIR$/Homework_Day_09_SQL_Helper_Transaction/Homework_Day_09_SQL_Helper_Transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework_Day_10_ListView_RecycleView/Homework_Day_10_ListView_RecycleView.iml" filepath="$PROJECT_DIR$/Homework_Day_10_ListView_RecycleView/Homework_Day_10_ListView_RecycleView.iml" />
       <module fileurl="file://$PROJECT_DIR$/Learning.iml" filepath="$PROJECT_DIR$/Learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/day01/day01.iml" filepath="$PROJECT_DIR$/day01/day01.iml" />

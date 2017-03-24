@@ -24,6 +24,10 @@
             <option value="$PROJECT_DIR$/Course_Day_09_SQL_Transaction" />
             <option value="$PROJECT_DIR$/Course_Day_10_Listview" />
             <option value="$PROJECT_DIR$/Course_Day_10_Recycleview" />
+            <option value="$PROJECT_DIR$/Course_Day_11_Content_Accesser" />
+            <option value="$PROJECT_DIR$/Course_Day_11_Content_Provider" />
+            <option value="$PROJECT_DIR$/Course_Day_11_Read_Contacts" />
+            <option value="$PROJECT_DIR$/Course_Day_11_Read_SMS" />
             <option value="$PROJECT_DIR$/Homework_Day_02_Layout" />
             <option value="$PROJECT_DIR$/Homework_Day_03_UI_Component" />
             <option value="$PROJECT_DIR$/Homework_Day_04_Activity" />
@@ -31,6 +35,8 @@
             <option value="$PROJECT_DIR$/Homework_Day_06_Broadcast" />
             <option value="$PROJECT_DIR$/Homework_Day_07_File_System" />
             <option value="$PROJECT_DIR$/Homework_Day_08_Pull_Parse_SQLite" />
+            <option value="$PROJECT_DIR$/Homework_Day_09_SQL_Helper_Transaction" />
+            <option value="$PROJECT_DIR$/Homework_Day_10_ListView_RecycleView" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/day01" />
             <option value="$PROJECT_DIR$/homework_day_06_broadcast_send" />

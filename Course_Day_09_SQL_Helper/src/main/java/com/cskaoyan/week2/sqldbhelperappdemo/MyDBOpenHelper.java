@@ -12,13 +12,11 @@ import android.util.Log;
 
 public class MyDBOpenHelper extends SQLiteOpenHelper {
 
-    private static  final String TAG ="MyDBOpenHelper";
+    private static final String TAG = "MyDBOpenHelper";
 
     public MyDBOpenHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
 
-
         super(context, "bank.db", null, 1);
-
     }
 
     //当数据库创建的时候调用；
@@ -32,10 +30,8 @@ public class MyDBOpenHelper extends SQLiteOpenHelper {
         //往表里插入初始化数据
         db.execSQL("insert into user values('allen','女','13632838888')");
 
-
         Log.i(TAG,"onCreate");
     }
-
 
     //更新的时候
     //数据库升级的时候，在此新增一张表

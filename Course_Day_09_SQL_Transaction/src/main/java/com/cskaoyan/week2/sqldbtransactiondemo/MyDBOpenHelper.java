@@ -31,7 +31,6 @@ public class MyDBOpenHelper extends SQLiteOpenHelper {
         db.execSQL("insert into account values('allen',1000)");
         db.execSQL("insert into account values('bill',1000)");
 
-
         Log.i(TAG,"onCreate");
     }
 
@@ -42,7 +41,5 @@ public class MyDBOpenHelper extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         Log.i(TAG,"onUpgrade");
-
-
     }
 }

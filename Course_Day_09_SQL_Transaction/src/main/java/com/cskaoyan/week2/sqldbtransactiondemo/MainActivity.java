@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         MyDBOpenHelper helper = new MyDBOpenHelper(this,"bank.db",null,1);
         db = helper.getReadableDatabase();
-
     }
 
     //allen --> bill 100
@@ -27,33 +27,28 @@ public class MainActivity extends AppCompatActivity {
         int amount =100;
         String from ="allen";
         String to ="bill";
-        try {
 
+        try {
             db.beginTransaction();
 
             db.execSQL("update account set money = money -? where username = ?;", new Object[]{amount, from});
             int i = 1 / 0;
             db.execSQL("update account set money = money +? where username = ?;", new Object[]{amount, to});
+
             db.setTransactionSuccessful(); //设置事务提交的标识
-
             Log.i(TAG,"transfer done!");
-
         }
         catch (Exception e){
-
             Log.i(TAG,"transfer error!" );
-
         }finally {
             db.endTransaction();
             //提交 事务     如果有调用到setTransactionSuccessful()
             //回滚 事务     如果没有调用setTransactionSuccessful() 方法则回滚事务。
-
         }
 
     }
 
     public void query(View v){
-
 
         Cursor cursor = db.rawQuery("select * from account ;", null);
 
@@ -63,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
             int money = cursor.getInt(1);
 
             Log.i(TAG,"username="+username+" money="+money);
-
         }
 
         cursor.close();
