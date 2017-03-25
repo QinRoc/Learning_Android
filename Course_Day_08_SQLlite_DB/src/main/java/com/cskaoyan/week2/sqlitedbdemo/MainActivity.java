@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
 
         db = createDB();
@@ -164,6 +163,14 @@ public class MainActivity extends AppCompatActivity {
             // insert into student (id ,name ) values ( ? ,?)  ;
             // insert into student  (  "+nullColumnHack + ") VALUES (NULL");
             db.insert("studetn", "name", null );
+            /*
+            SQL doesn't allow inserting a completely empty row without
+            naming at least one column name.  If your provided <code>values</code> is
+            empty, no column names are known and an empty row can't be inserted.
+            If not set to null, the <code>nullColumnHack</code> parameter
+            provides the name of nullable column name to explicitly insert a NULL into
+            in the case where your <code>values</code> is empty.
+            */
         }
     }
 }

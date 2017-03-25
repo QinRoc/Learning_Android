@@ -28,6 +28,7 @@ public class MyContentProvider extends ContentProvider {
     //这里面基本上就是要初始化一个sqliteDatabase对象
     @Override
     public boolean onCreate() {
+
         MySqliteOpenHelper helper = new MySqliteOpenHelper(getContext(), "data.db", null, 2);
         readableDatabase = helper.getReadableDatabase();
 
@@ -44,7 +45,6 @@ public class MyContentProvider extends ContentProvider {
         sMatcher.addURI("com.cskaoyan.provider.auth", "goods/#", 3);
         sMatcher.addURI("com.cskaoyan.provider.auth", "goods/*", 4);
 
-
         return false;
     }
 
@@ -58,13 +58,11 @@ public class MyContentProvider extends ContentProvider {
 
         int match = sMatcher.match(uri);
 
-
        /* String s1 = uri.getPathSegments().get(0);
         String s2 = uri.getPathSegments().get(1);
 
         Log.i(TAG,"s1="+s1);
         Log.i(TAG,"s2="+s2);*/
-
 
         Cursor cursor = null;
         if (match == 1) { //访问goods表
@@ -83,24 +81,21 @@ public class MyContentProvider extends ContentProvider {
 
         }
 
-
         if (cursor == null)
             Log.i("provider", "cursor is null");
         else
             Log.i("provider", cursor.toString());
 
-
         return cursor;
     }
-
 
     @Nullable
     @Override
     public Uri insert(@NonNull Uri uri, @Nullable ContentValues values) {
 
-
         int match = sMatcher.match(uri);
         if (match == 1) { //访问goods表
+
             readableDatabase.insert("goods", null, values);
 
             //当这个表发生变化之后，我们可以通知系统。
@@ -124,7 +119,6 @@ public class MyContentProvider extends ContentProvider {
 
     @Override
     public int update(@NonNull Uri uri, @Nullable ContentValues values, @Nullable String selection, @Nullable String[] selectionArgs) {
-
 
         readableDatabase.update("user", values, selection, selectionArgs);
         return 0;

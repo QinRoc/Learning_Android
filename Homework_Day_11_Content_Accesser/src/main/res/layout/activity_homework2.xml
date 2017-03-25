@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.homework_day_11_content_accesser.Homework2"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="22dp"
+        android:layout_marginEnd="22dp"
+        android:onClick="usersDelete"
+        android:text="删id=9"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintRight_toLeftOf="@+id/button8"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:onClick="usersUpdate"
+        android:text="改id=8"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button7"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="136dp"
+        android:onClick="usersQuery"
+        android:text="查全部"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintLeft_toLeftOf="@+id/button7"
+        app:layout_constraintRight_toRightOf="@+id/button7"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:onClick="usersInsert"
+        android:text="增id=20"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="47dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="51dp"
+        android:text="用户"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintLeft_toLeftOf="@+id/button7"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp"
+        android:layout_marginStart="17dp"
+        android:text="商品"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintLeft_toLeftOf="@+id/button3"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="18dp"
+        android:onClick="goodsDelete"
+        android:text="删id=9"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintLeft_toLeftOf="@+id/button9"
+        app:layout_constraintRight_toRightOf="@+id/button9"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="13dp"
+        android:onClick="goodsUpdate"
+        android:text="改id=8"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button3"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="28dp"
+        android:onClick="goodsQuery"
+        android:text="查全部"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/button3"
+        app:layout_constraintRight_toRightOf="@+id/button3"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:onClick="goodsInsert"
+        android:text="增id=20"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+</android.support.constraint.ConstraintLayout>

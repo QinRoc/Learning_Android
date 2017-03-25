@@ -26,11 +26,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void readContacts(View v) {
 
-
         ContentResolver contentResolver = getContentResolver();
 
         //第一步，查询第一个表raw_contacts
-
         Cursor cursor = contentResolver.query(
                 Uri.parse("content://com.android.contacts/raw_contacts"),
                 new String[]{"contact_id"},

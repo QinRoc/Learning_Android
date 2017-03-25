@@ -14,11 +14,11 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity Accessor";
     private ContentResolver contentResolver;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         //怎么要 调用什么api？
         contentResolver = getContentResolver();
 
@@ -30,16 +30,12 @@ public class MainActivity extends AppCompatActivity {
                 false,
                 new MyContentObserver(null)
         );
-
         //注意，这里能不能接收到数据库变化的通知，取决于数据库发生变化之后，有没有通知系统。
-
     }
 
     public void query(View v) {
 
         //向系统要某个应用的数据
-
-
         //要哪个？
         //@NonNull Uri uri,
         /*@Nullable String[] projection,
@@ -58,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
                 null,
                 null);
 
-
         while (cursor.moveToNext()) {
 
             int id = cursor.getInt(0);
@@ -69,10 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Log.i(TAG,"id="+id +" name = " +name +" gender= "+gender);
         }
-
         cursor.close();
-
-
     }
 
     public void update(View v) {
