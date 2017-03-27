@@ -35,6 +35,9 @@
             <option value="$PROJECT_DIR$/Course_Day_13_Get_Pic" />
             <option value="$PROJECT_DIR$/Course_Day_13_Login" />
             <option value="$PROJECT_DIR$/Course_Day_13_Network" />
+            <option value="$PROJECT_DIR$/Course_Day_14_Json_Data_from_Server" />
+            <option value="$PROJECT_DIR$/Course_Day_14_Register" />
+            <option value="$PROJECT_DIR$/Course_Day_14_XML_Data_from_Sever" />
             <option value="$PROJECT_DIR$/Homework_Day_02_Layout" />
             <option value="$PROJECT_DIR$/Homework_Day_03_UI_Component" />
             <option value="$PROJECT_DIR$/Homework_Day_04_Activity" />
@@ -47,6 +50,7 @@
             <option value="$PROJECT_DIR$/Homework_Day_11_Content_Accesser" />
             <option value="$PROJECT_DIR$/Homework_Day_11_Content_Provider" />
             <option value="$PROJECT_DIR$/Homework_Day_12_Fragment" />
+            <option value="$PROJECT_DIR$/Homework_Day_13_Network" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/day01" />
             <option value="$PROJECT_DIR$/homework_day_06_broadcast_send" />
