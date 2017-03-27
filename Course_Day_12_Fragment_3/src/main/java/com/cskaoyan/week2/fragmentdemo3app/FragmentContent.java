@@ -22,15 +22,12 @@ public class FragmentContent extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
 
-
         View view = inflater.inflate(R.layout.content_fragement, container);
 
         news_title = (TextView) view.findViewById(R.id.news_title);
         news_pic = (ImageView) view.findViewById(R.id.news_pic);
 
-
         return view;
-
     }
 
 

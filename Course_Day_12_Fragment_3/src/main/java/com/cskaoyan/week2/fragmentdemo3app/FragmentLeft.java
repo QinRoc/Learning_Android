@@ -22,6 +22,7 @@ import java.util.List;
  */
 
 public class FragmentLeft extends Fragment {
+
     private static final String TAG = "FragmentLeft";
 
     private ListView title_listview;
@@ -52,7 +53,6 @@ public class FragmentLeft extends Fragment {
 
         title_listview.setAdapter(new MyListAdpater());
 
-
         title_listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -64,16 +64,11 @@ public class FragmentLeft extends Fragment {
 
                 String title = title_stringList.get(position);
 
-
                 fragment_content.setNews_title(title);
-
                 fragment_content.setNews_pic(resource_ids[position % 8]);
-
-
             }
-
-
         });
+
         Log.i(TAG, "onCreateView");
 
         return view;
@@ -89,9 +84,7 @@ public class FragmentLeft extends Fragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-
         Log.i(TAG, "onAttach");
-
     }
 
     @Override
@@ -141,11 +134,9 @@ public class FragmentLeft extends Fragment {
     public void onDetach() {
         super.onDetach();
         Log.i(TAG, "onDetach");
-
     }
 
     class MyListAdpater extends BaseAdapter {
-
 
         @Override
         public int getCount() {
@@ -169,7 +160,6 @@ public class FragmentLeft extends Fragment {
             return tv;
         }
 
-
         @Override
         public Object getItem(int position) {
             return null;
@@ -179,7 +169,5 @@ public class FragmentLeft extends Fragment {
         public long getItemId(int position) {
             return 0;
         }
-
-
     }
 }

@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         button.setOnClickListener(this);
         button1.setOnClickListener(this);
-
     }
 
     @Override
@@ -38,23 +37,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 FragmentB fragmentb = new FragmentB();
                 addFramgent(fragmentb);
                 break;
-
         }
     }
 
     private void addFramgent(Fragment fragment) {
+
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
-        //第一个参数是contianer 就是放fragment的地方
-        //第二个参数是要替换的fragment
-
         FrameLayout framgent = (FrameLayout) findViewById(R.id.framgent);
         //让它自己把内部的子控件清空一下
-        //Call this method to remove all child views from the
-        //ViewGroup.
+        //Call this method to remove all child views from the ViewGroup.
         framgent.removeAllViews();
 
+        //第一个参数是contianer 就是放fragment的地方
+        //第二个参数是要替换的fragment
         fragmentTransaction.add(R.id.framgent, fragment);
 
         fragmentTransaction.commit();
