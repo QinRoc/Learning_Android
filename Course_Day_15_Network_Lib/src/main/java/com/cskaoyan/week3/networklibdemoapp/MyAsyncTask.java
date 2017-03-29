@@ -28,9 +28,6 @@ public abstract class MyAsyncTask {
         }
     };
 
-    //去通知主线程，回调另一个函数
-    public abstract void afterExecute(Bitmap bitmap);
-
     //得让我们三个函数按照预定的期望执行起来
     public void execute() {
 
@@ -54,4 +51,7 @@ public abstract class MyAsyncTask {
 
     //该函数内的代码是起线程，在线程内异步执行
     public abstract Bitmap executeInBackground();
+
+    //去通知主线程，回调另一个函数
+    public abstract void afterExecute(Bitmap bitmap);
 }
